@@ -1,3 +1,7 @@
+# Project details
+## Simple Add user form and display added user list below the form and error handeling with showing error models if form data is wrong. Project also used style.module.css concept to isolate the style to particular component.
+
+## Project also rendering components conditionally.  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
