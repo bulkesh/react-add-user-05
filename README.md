@@ -5,15 +5,15 @@
 # Getting Started with Create React App
 
 ### createPortal() and useRef()
-1. To wrap the side by side elements in a single element in jsx we can use 4 approaches - 
+1. To wrap the side by side elements in a single element in jsx we can use 4 approaches - \
     A. <>...all other jsx elements</ > => but its not really recommended> it can cause errors due
-        to project setup.
+        to project setup.\
     B. <\div>...all other jsx elements</ div> => Its ok but it will render extra elements in DOM
-        which can slow down your application and react need to parse, render go through all these extra elements. So it can be also avoided.
+        which can slow down your application and react need to parse, render go through all these extra elements. So it can be also avoided.\
     C. <\Wrapper>...all other jsx elements</ Wrapper> => Create a Wrapper component which only
-        returns return(props.children) only. It will render all your jsx elements inside Wrapper component without any extra element render in dom.
+        returns return(props.children) only. It will render all your jsx elements inside Wrapper component without any extra element render in dom.\
     D. <\Fragment>...all other jsx elements</ Fragment> => import { Fragment } from 'react'
-        It will also render all your jsx elements inside Fragment component without any extra element render in dom. Its by default provide by React and almost same as Wrapper component.
+        It will also render all your jsx elements inside Fragment component without any extra element render in dom. Its by default provide by React and almost same as Wrapper component.\
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
