@@ -1,8 +1,7 @@
 # Project details
-## Simple Add user form and display added user list below the form and error handling with showing error models if form data is wrong. Project also used style.module.css concept to isolate the style to particular component.
+### Simple Add user form and display added user list below the form and error handling with showing error models if form data is wrong. Project also used style.module.css concept to isolate the style to particular component.
 
-## Project also rendering components conditionally.  
-# Getting Started with Create React App
+### Project also rendering components conditionally.  
 
 ### createPortal() and useRef()
 1. To wrap the side by side elements in a single element in jsx we can use 4 approaches - \
@@ -14,6 +13,8 @@
         returns return(props.children) only. It will render all your jsx elements inside Wrapper component without any extra element render in dom.\
     D. <\Fragment>...all other jsx elements</ Fragment> => import { Fragment } from 'react'
         It will also render all your jsx elements inside Fragment component without any extra element render in dom. Its by default provide by React and almost same as Wrapper component.\
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
